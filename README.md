@@ -62,8 +62,6 @@ The dataset includes information about students acquiring secondary education fr
 
 
 ### Methodology
-The problem statement can be defined as follows” Given a dataset containing information about 396 Portuguese students, define classification algorithms based on the data available to identify if the student performs good in final exam. Also, evaluate different machine learning models using the dataset.”
-
 Since universities are prestigious places to obtain higher education, students’ retention in universities is a matter of high concern. It has been found that most of the students’ drop-out from universities during their first year due to lack of support in undergraduate courses which is why the first year is referred as a “make or break” year. Getting zero support on a course’s domain and its complexity can demotivate a student and lead to withdrawal.
 
 An appropriate solution needs to be developed to assist students’ retention in higher education institutions. One of the solutions is an early grade predictor which will monitor students’ progress in courses at university leading to improvement in students’ learning process based on predicted grades. 
