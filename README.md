@@ -21,13 +21,12 @@
 To predict the final grade of Portugese high school students
 
 ### Problem Statement
-The problem statement can be defined as follows ”Given a dataset containing information about 396 Portuguese students define classifiation algorithms based on the data available to identify if the student performs good in final exam. Also, evaluate different machine learning models using the dataset.”
+The problem statement can be defined as follows” Given a dataset containing information about 396 Portuguese students, define classification algorithms based on the data available to identify if the student performs good in final exam. Also, evaluate different machine learning models using the dataset.”
 
 ### Description of the Dataset
 The dataset includes information about students acquiring secondary education from two Portuguese schools. The data attributes include student grades, demographic, social, and school-related features, and it was collected by using school reports and questionnaires. Two datasets are provided which contain performance report of students in two distinct subjects: Mathematics (mat) and Portuguese language (por). The two data sets were modeled using binary/five-level classification and regression tasks [Cortez and Silva, 2008].
 
 ***Important note:*** the target attribute G3 has a strong correlation with attributes G2 and G1. This occurs because G3 is the final year grade (issued at the 3rd period), while G1 and G2 correspond to the 1st and 2nd period grades. It is more difficult to predict G3 without G2 and G1, but such prediction is much more useful (see paper source for more details).
-
 
 ### Attribute Information:
 * school - student's school (binary: 'GP' - Gabriel Pereira or 'MS' - Mousinho da Silveira)
@@ -63,13 +62,15 @@ The dataset includes information about students acquiring secondary education fr
 
 
 ### Methodology
-Since universities are prestigious places of higher education, students’ retention in these universities is a matter of high concern. It has been found that most of the students’ drop-out from the universities during their first year is due to lack of proper support in undergraduate courses. Due to this reason, the first year of the undergraduate student is referred as a “make or break” year. Without getting any support on the course domain and its complexity, it may demotivate a student and can be the cause to withdraw the course. 
+The problem statement can be defined as follows” Given a dataset containing information about 396 Portuguese students, define classification algorithms based on the data available to identify if the student performs good in final exam. Also, evaluate different machine learning models using the dataset.”
 
-There is a great need to develop an appropriate solution to assist students retention at higher education institutions. Early grade prediction is one of the solutions that have a tendency to monitor students’ progress in the degree courses at the University and will lead to improving the students’ learning process based on predicted grades. 
+Since universities are prestigious places to obtain higher education, students’ retention in universities is a matter of high concern. It has been found that most of the students’ drop-out from universities during their first year due to lack of support in undergraduate courses which is why the first year is referred as a “make or break” year. Getting zero support on a course’s domain and its complexity can demotivate a student and lead to withdrawal.
 
-Using machine learning with Educational Data Mining can improve the learning process of students. Different models can be developed to predict students’ grades in the enrolled courses, which provide valuable information to facilitate students’ retention in those courses. This information can be used to early identify students at-risk based on which a system can 1 suggest the instructors to provide special attention to those students. This information can also help in predicting the students’ grades in different courses to monitor their performance in a better way that can enhance the students’ retention rate of the universities. 
+An appropriate solution needs to be developed to assist students’ retention in higher education institutions. One of the solutions is an early grade predictor which will monitor students’ progress in courses at university leading to improvement in students’ learning process based on predicted grades. 
 
-Using various packages such as cufflinks, seaborn & matplotlib to represent the data along with different attributes graphically or pictorially to analyse the dataset for predicting the Final Grade(G3).
+Using machine learning with educational data mining can help improve the learning process of students. Different models can be developed to predict students’ grades in enrolled courses which will provide valuable information to facilitate students’ retention in those courses. This information can also be used to identify students at-risk early in the semester based on which the system can suggest the instructors to provide special attention to those students. 
+
+Various packages such as cufflinks, seaborn & matplotlib can be used to represent the data and its different attributes graphically or pictorially to analyse the dataset for predicting the final grade(G3).
 
 ### Machine Learning Algorithms used
 1. Linear Regression
