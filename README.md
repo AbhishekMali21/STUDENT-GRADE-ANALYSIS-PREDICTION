@@ -18,14 +18,16 @@
 [![HitCount](http://hits.dwyl.com/AbhishekMali21/STUDENT-GRADE-ANALYSIS-PREDICTION.svg)](http://hits.dwyl.com/AbhishekMali21/STUDENT-GRADE-ANALYSIS-PREDICTION)
 
 ### Objective
-Prediction of the final grade of Portugese high school students
+To predict the final grade of Portugese high school students
 
 ### Problem Statement
-The problem statement can be defined as follows ”Given a dataset containing attribute of 396 Portuguese students where using the features available from dataset and define classification algorithms to identify whether the student performs good in final grade exam, also to evaluate different machine learning models on the dataset.”
+The problem statement can be defined as follows ”Given a dataset containing information about 396 Portuguese students define classifiation algorithms based on the data available to identify if the student performs good in final exam. Also, evaluate different machine learning models using the dataset.”
 
-### Description Of Dataset
-This data approach student achievement in secondary education of two Portuguese schools. The data attributes include student grades, demographic, social and school-related features) and it was collected by using school reports and questionnaires. Two datasets are provided regarding the performance in two distinct subjects: Mathematics (mat) and Portuguese language (por). In [Cortez and Silva, 2008], the two data sets were modeled under binary/five-level classification and regression tasks. Important note: the target attribute G3 has a strong correlation with attributes G2 and G1.
-This occurs because G3 is the final year grade (issued at the 3rd period), while G1 and G2 correspond to the 1st and 2nd period grades. It is more difficult to predict G3 without G2 and G1, but such prediction is much more useful (see paper source for more details).
+### Description of the Dataset
+The dataset includes information about students acquiring secondary education from two Portuguese schools. The data attributes include student grades, demographic, social, and school-related features, and it was collected by using school reports and questionnaires. Two datasets are provided which contain performance report of students in two distinct subjects: Mathematics (mat) and Portuguese language (por). The two data sets were modeled using binary/five-level classification and regression tasks [Cortez and Silva, 2008].
+
+***Important note:*** the target attribute G3 has a strong correlation with attributes G2 and G1. This occurs because G3 is the final year grade (issued at the 3rd period), while G1 and G2 correspond to the 1st and 2nd period grades. It is more difficult to predict G3 without G2 and G1, but such prediction is much more useful (see paper source for more details).
+
 
 ### Attribute Information:
 * school - student's school (binary: 'GP' - Gabriel Pereira or 'MS' - Mousinho da Silveira)
