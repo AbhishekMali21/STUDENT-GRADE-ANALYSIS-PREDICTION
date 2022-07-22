@@ -21,7 +21,7 @@
 To predict the final grade of Portugese high school students
 
 ### Problem Statement
-The problem statement can be defined as follows” Given a dataset containing information about 396 Portuguese students, define classification algorithms based on the data available to identify if the student performs good in final exam. Also, evaluate different machine learning models using the dataset.”
+The problem statement can be defined as follows ”Given a dataset containing information about 396 Portuguese students, define classification algorithms based on the data available to identify if the student performs good in final exam. Also, evaluate different machine learning models using the dataset.”
 
 ### Description of the Dataset
 The dataset includes information about students acquiring secondary education from two Portuguese schools. The data attributes include student grades, demographic, social, and school-related features, and it was collected by using school reports and questionnaires. Two datasets are provided which contain performance report of students in two distinct subjects: Mathematics (mat) and Portuguese language (por). The two data sets were modeled using binary/five-level classification and regression tasks [Cortez and Silva, 2008].
